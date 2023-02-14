@@ -1,0 +1,38 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .f1 {
+    width: 30%;
+  }
+  
+  .f2 {
+    margin-left: 5%;
+    width: 65%;
+  }
+  body {
+    background-color: #eef0ec;
+    color: #456268;
+    margin: 50px;
+  }
+  
+  .span {
+    font-weight: lighter;
+    font-style: italic;
+  }
+  
+  table {
+    overflow-y: scroll;
+    overflow-x: scroll;
+  }
+  
+  @media only screen and (max-width: 950px) {
+    .f1 {
+      width: 100%;
+    }
+    .f2 {
+      width: 100%;
+      margin-left: 0px;
+    }
+  }
